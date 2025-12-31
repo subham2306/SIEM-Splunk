@@ -40,6 +40,7 @@ soc/
 
 1️⃣ Download Splunk
 Download Splunk Enterprise (Free): https://www.splunk.com/en_us/download/splunk-enterprise.html
+Download from Google drive link (Free) : https://drive.google.com/file/d/1FFLXcIHfj4p9Df0XUl5UkbcrMkHhuTHK/view?usp=drive_link
 
 2️⃣ Install Splunk
 sudo dpkg -i splunk-*.deb
