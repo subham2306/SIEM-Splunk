@@ -117,5 +117,22 @@ sql
 Copy code
 DROP  all  --  192.168.150.146  0.0.0.0/0
 
-
+🚀 How to Activate Virtual Environment & Run the Project
+Step 1: Open the project folder
+        cd SIEM-Splunk
+Step 2: Create a virtual environment (if not already created)
+        python -m venv env
+Step 3: Activate the virtual environment
+        source env/bin/activate
+Step 4: Install required dependencies
+        pip install -r requirements.txt
+Step 5: Run the log collector
+        sudo python3 log_collector.py
+Step 6: Open the Splunk search and reporting and search 
+        index=main "Failed password"
+        | stats count by src_ip
+        | where count > 5
+        | sort -count
+Step 7: Open the Dashboard and Refresh 
+       The attck will show in the Bar graph and line chart
 
