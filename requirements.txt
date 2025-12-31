@@ -1,0 +1,8 @@
+requests
+python-nmap
+scapy
+paramiko
+psutil
+colorama
+python-dotenv
+
