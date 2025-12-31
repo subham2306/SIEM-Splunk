@@ -2,13 +2,9 @@
 # 🔐 SOC Automation with Splunk SIEM  
 ### SSH Brute Force Detection | Geo-IP Mapping | Automated Response
 
-
 ## 📌 Project Overview
-
 This project demonstrates a **real-world Security Operations Center (SOC) workflow** using **Splunk Enterprise (SIEM)** to detect, analyze, visualize, and respond to **SSH brute-force attacks**.
-
 The system ingests Linux authentication logs, detects suspicious activity, enriches attacker IPs with Geo-IP data, visualizes attacks on a SOC dashboard, and automates response actions such as firewall blocking, alerting, and incident reporting.
-
 
 ## 🎯 Key Features
 
