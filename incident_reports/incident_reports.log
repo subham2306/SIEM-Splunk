@@ -1,0 +1,9 @@
+
+==============================
+Time        : 2025-12-29 09:28:17.652019
+Attack Type : SSH Brute Force
+Attacker IP : 6.6.6.6
+User        : testuser
+Action      : IP BLOCKED (24h)
+MITRE       : T1110
+==============================
